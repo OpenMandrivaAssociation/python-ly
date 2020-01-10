@@ -20,7 +20,7 @@ various manipulations with LilyPond files.
 
 %prep
 %setup -q -n %{pypi_name}-%{version}
-%apply_patches
+%autopatch -p1
 
 %build
 python setup.py build
