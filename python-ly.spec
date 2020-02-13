@@ -1,7 +1,7 @@
 %global pypi_name python-ly
 
 Name:           %{pypi_name}
-Version:        0.9.4
+Version:        0.9.6
 Release:        1
 Group:          Development/Python
 Summary:        Tool and library for manipulating LilyPond files
@@ -9,7 +9,7 @@ License:        GPLv2+
 URL:            https://github.com/wbsoft/python-ly
 Source0:        http://pypi.python.org/packages/source/p/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
 BuildArch:	noarch
-BuildRequires:  pkgconfig(python2)
+BuildRequires:  pkgconfig(python)
 BuildRequires:  pythonegg(setuptools)
 
 %description
