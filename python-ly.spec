@@ -2,7 +2,7 @@
 
 Name:           %{pypi_name}
 Version:        0.9.6
-Release:        2
+Release:        3
 Group:          Development/Python
 Summary:        Tool and library for manipulating LilyPond files
 License:        GPLv2+
