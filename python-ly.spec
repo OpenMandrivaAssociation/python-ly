@@ -11,6 +11,8 @@ Source0:	https://pypi.python.org/packages/source/p/%{pypi_name}/%{pypi_name}-%{v
 BuildRequires:		pkgconfig(python)
 BuildRequires:		python3dist(pyproject-api)
 BuildRequires:		python3dist(setuptools)
+BuildRequires:		python3dist(wheel)
+BuildRequires:		python3dist(hatchling)
 BuildRequires:		python3dist(sphinx)
 BuildRequires:		python3dist(sphinx-rtd-theme)
 BuildArch:		noarch
