@@ -3,7 +3,7 @@
 Summary:		Tool and library for manipulating LilyPond files
 Name:	%{pypi_name}
 Version:	0.9.9
-Release:	2
+Release:	3
 License:	GPLv2+
 Group:	Development/Python
 Url:	https://github.com/frescobaldi/python-ly
