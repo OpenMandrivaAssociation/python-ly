@@ -8,6 +8,7 @@ License:	GPLv2+
 Group:	Development/Python
 Url:	https://github.com/frescobaldi/python-ly
 Source0:	https://pypi.python.org/packages/source/p/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
+BuildRequires:		make
 BuildRequires:		pkgconfig(python)
 BuildRequires:		python3dist(pyproject-api)
 BuildRequires:		python3dist(setuptools)
