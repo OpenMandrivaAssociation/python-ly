@@ -4,7 +4,7 @@
 Name:		python-ly
 Summary:	Tool and library for manipulating LilyPond files
 Version:	0.9.10
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Development/Python
 URL:		https://github.com/frescobaldi/python-ly
@@ -14,7 +14,7 @@ Source100:	%{name}.rpmlintrc
 BuildSystem:	python
 BuildArch:	noarch
 BuildRequires:	make
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(hatchling)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(pyproject-api)
